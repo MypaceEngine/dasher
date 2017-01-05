@@ -55,6 +55,19 @@ Here's an example.
     }
   },
   {
+    "name": "Start Party Time(Add Button WWN to Response Header",
+    "address": "f9:05:df:9f:6f:43",
+    "interface": "en0",
+    "timeout": "60000",
+    "protocol": "udp",
+    "addWWN2ResponseHeader": true,
+    "url": "http://192.168.1.55:8123/api/services/scene/turn_on",
+    "method": "POST",
+    "headers": {"x-ha-access": "your_password"},
+    "json": true,
+    "body": {"entity_id": "scene.party_time"}
+  },
+  {
     "method": "WOL",
     "name": "Wake my Plex-Server",
     "address": "50:f5:da:cc:dd:ee",

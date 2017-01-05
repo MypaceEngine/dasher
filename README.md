@@ -61,6 +61,11 @@ Here's an example.
     "targetMac": "aa:bb:cc:dd:ee:ff"
   },
   {
+    "address": "66:a7:d8:4a:57:d8",
+    "url": "/opt/anyprogram",
+    "method": "EXEC"
+  },
+  {
     "name": "Start Cooking Playlist",
     "address": "66:a0:dc:98:d2:63",
     "url": "http://192.168.1.55:8181/playlists/cooking/play",
@@ -156,7 +161,7 @@ Simply **install the dependencies** and **clone the repository**.
 
 **Clone and Set up Dasher**
 
-    git clone https://github.com/maddox/dasher.git
+    git clone https://github.com/MypaceEngine/dasher.git
     cd dasher
     npm install
 
@@ -198,7 +203,7 @@ Starting from a fresh Raspberry Pi Build?
     wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
     sudo dpkg -i node_latest_armhf.deb
 
-    git clone https://github.com/maddox/dasher.git
+    git clone https://github.com/MypaceEngine/dasher.git
     cd dasher
     sudo npm install
 

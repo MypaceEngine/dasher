@@ -23,6 +23,11 @@
     "targetMac": "aa:bb:cc:dd:ee:ff"
   },
   {
+    "address": "66:a7:d8:4a:57:d8",
+    "url": "/opt/anyprogram",
+    "method": "EXEC"
+  },
+  {
     "name": "Start Cooking Playlist",
     "address": "66:a0:dc:98:d2:63",
     "protocol": "arp",	

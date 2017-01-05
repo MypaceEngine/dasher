@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "node-dash-button": "git+https://github.com/MypaceEngine/node-dash-button.git",
-    "request": "^2.60.0"
+    "request": "^2.60.0",
+    "wake_on_lan": "^0.0.4"
   }
 }

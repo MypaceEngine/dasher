@@ -17,6 +17,12 @@
     "body": {"entity_id": "scene.party_time"}
   },
   {
+    "method": "WOL",
+    "name": "Wake my Plex-Server",
+    "address": "50:f5:da:cc:dd:ee",
+    "targetMac": "aa:bb:cc:dd:ee:ff"
+  },
+  {
     "name": "Start Cooking Playlist",
     "address": "66:a0:dc:98:d2:63",
     "protocol": "arp",	

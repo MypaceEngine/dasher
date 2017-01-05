@@ -1,8 +1,11 @@
+
 version: "2"
+
 services:
   dasher:
     build: .
     network_mode: host
     restart: always
+    container_name: dasher
     volumes:
       - ~/configs/dasher:/usr/src/app/config
